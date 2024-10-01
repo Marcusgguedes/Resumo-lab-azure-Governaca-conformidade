@@ -3,10 +3,12 @@
 
 Governância e conformidade: 
 
+Vimos  importancia dos conceitos abaixo. 
+
 * Blueprints, politicas e bloqueios de recursos. 
 * Portal de confiança do Serviço. 
 
-Vamos desrver o que é 
+Assim podemos descrever o que é: 
 
 * Azure Policies e sua finalidade. 
 * Bloqueios de rescuros e sua finalidade. 
@@ -17,22 +19,19 @@ Vamos desrver o que é
 Além disso, fornece governança e consistência de recursos com conformidade regulatória , segura , custo e gerenciamento.  
 
 
-***Bloqueios de rescuros***: Serve para protejer os recursos do azure de exclusões ou modicação acidental. Tambem, bloqueia assinatura , grupo de recursos ou niveis de recursos individuasi 
-dentro do portal do Azure. 
+***Bloqueios de rescuros***: Serve para protejer os recursos do azure de exclusões ou modicação acidental. Também, bloqueia assinatura , grupo de recursos ou níveis de recursos individuais. 
 
- 
-Enteder essa tabela para prova: 
+Importante dentro do portal do Azure enteder tabela para prova: 
 
-          Tipo de Bloqueios|Ler|Atualizar|Excluir |
-       |-------------| ---------|     
-            |Excluir| SIM |SIM|Não 
-            |ReadOnly | SIM |Não| não 
-
+|Tipo de Bloqueio|Ler|Atualizar|Excluir 
+|---------|-------|-----|------|
+| Excluir | SIM |SIM |NÃO
+|ReadOnly | SIM |NÃO |NÃO
 
 ***Portal de confiançã do Serviço***: É onde pode-se identificar todas as regras que a miscrosoft segue em questão de protocolos  para atender as espectativas de determinda categoria e de empresas
 como setor bancário, farmaceutico entre outros. 
 
- 
-
 ***Mocrosoft Purview.***: É uma familia de soluçõs de governança, risco e conformidade de dados que ajuda vc a obter uma única exibição unificada em seus dados. O microfost Purview reúne insights
 sobre seus dados locais , multinivem e de software como serviço.
+
+
